@@ -70,7 +70,9 @@ services:
       - elasticsearch
 
   spring-app:
-    image: spring-app:0.1
+    image: spring-app:1.1
+    volumes:
+      - ./spring-app/logs:/logs
     networks:
       - elk
   
@@ -92,6 +94,7 @@ services:
     volumes:
       - ./filebeat/filebeat.yml:/usr/share/filebeat/filebeat.yml
       - ./nginx/log:/var/log/nginx 
+      - ./spring-app/logs:/logs
     networks:
       - elk
     depends_on:

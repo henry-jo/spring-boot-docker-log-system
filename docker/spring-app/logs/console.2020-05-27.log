@@ -1,0 +1,60 @@
+2020-05-27 09:11:52.976 INFO  --- [main, NOSESSION] c.h.d.DockerLogSystemApplicationKt : Starting DockerLogSystemApplicationKt on ed8984c85ada with PID 1 (/application.jar started by root in /) 
+2020-05-27 09:11:52.997 INFO  --- [main, NOSESSION] c.h.d.DockerLogSystemApplicationKt : No active profile set, falling back to default profiles: default 
+2020-05-27 09:11:58.128 INFO  --- [main, NOSESSION] o.s.b.w.e.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http) 
+2020-05-27 09:11:58.260 INFO  --- [main, NOSESSION] o.a.catalina.core.StandardService : Starting service [Tomcat] 
+2020-05-27 09:11:58.262 INFO  --- [main, NOSESSION] o.a.catalina.core.StandardEngine : Starting Servlet Engine: Apache Tomcat/9.0.13 
+2020-05-27 09:11:58.316 INFO  --- [main, NOSESSION] o.a.c.core.AprLifecycleListener : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib] 
+2020-05-27 09:11:58.666 INFO  --- [main, NOSESSION] o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext 
+2020-05-27 09:11:58.669 INFO  --- [main, NOSESSION] o.s.web.context.ContextLoader : Root WebApplicationContext: initialization completed in 5160 ms 
+2020-05-27 09:11:59.688 INFO  --- [main, NOSESSION] o.s.s.c.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor' 
+2020-05-27 09:12:00.991 INFO  --- [main, NOSESSION] o.s.b.w.e.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path '' 
+2020-05-27 09:12:01.008 INFO  --- [main, NOSESSION] c.h.d.DockerLogSystemApplicationKt : Started DockerLogSystemApplicationKt in 9.611 seconds (JVM running for 11.274) 
+2020-05-27 09:14:15.672 INFO  --- [Thread-3, NOSESSION] o.s.s.c.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor' 
+2020-05-27 09:18:04.564 INFO  --- [main, NOSESSION] c.h.d.DockerLogSystemApplicationKt : Starting DockerLogSystemApplicationKt on ed8984c85ada with PID 1 (/application.jar started by root in /) 
+2020-05-27 09:18:04.586 INFO  --- [main, NOSESSION] c.h.d.DockerLogSystemApplicationKt : No active profile set, falling back to default profiles: default 
+2020-05-27 09:18:08.480 INFO  --- [main, NOSESSION] o.s.b.w.e.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http) 
+2020-05-27 09:18:08.625 INFO  --- [main, NOSESSION] o.a.catalina.core.StandardService : Starting service [Tomcat] 
+2020-05-27 09:18:08.631 INFO  --- [main, NOSESSION] o.a.catalina.core.StandardEngine : Starting Servlet Engine: Apache Tomcat/9.0.13 
+2020-05-27 09:18:08.691 INFO  --- [main, NOSESSION] o.a.c.core.AprLifecycleListener : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib] 
+2020-05-27 09:18:09.021 INFO  --- [main, NOSESSION] o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext 
+2020-05-27 09:18:09.031 INFO  --- [main, NOSESSION] o.s.web.context.ContextLoader : Root WebApplicationContext: initialization completed in 3967 ms 
+2020-05-27 09:18:10.048 INFO  --- [main, NOSESSION] o.s.s.c.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor' 
+2020-05-27 09:18:11.123 INFO  --- [main, NOSESSION] o.s.b.w.e.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path '' 
+2020-05-27 09:18:11.144 INFO  --- [main, NOSESSION] c.h.d.DockerLogSystemApplicationKt : Started DockerLogSystemApplicationKt in 8.041 seconds (JVM running for 9.383) 
+2020-05-27 11:35:49.037 INFO  --- [Thread-3, NOSESSION] o.s.s.c.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor' 
+2020-05-27 12:27:02.892 INFO  --- [main, NOSESSION] c.h.d.DockerLogSystemApplicationKt : Starting DockerLogSystemApplicationKt on ed8984c85ada with PID 1 (/application.jar started by root in /) 
+2020-05-27 12:27:02.901 INFO  --- [main, NOSESSION] c.h.d.DockerLogSystemApplicationKt : No active profile set, falling back to default profiles: default 
+2020-05-27 12:27:06.959 INFO  --- [main, NOSESSION] o.s.b.w.e.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http) 
+2020-05-27 12:27:07.142 INFO  --- [main, NOSESSION] o.a.catalina.core.StandardService : Starting service [Tomcat] 
+2020-05-27 12:27:07.143 INFO  --- [main, NOSESSION] o.a.catalina.core.StandardEngine : Starting Servlet Engine: Apache Tomcat/9.0.13 
+2020-05-27 12:27:07.259 INFO  --- [main, NOSESSION] o.a.c.core.AprLifecycleListener : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib] 
+2020-05-27 12:27:07.678 INFO  --- [main, NOSESSION] o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext 
+2020-05-27 12:27:07.679 INFO  --- [main, NOSESSION] o.s.web.context.ContextLoader : Root WebApplicationContext: initialization completed in 4365 ms 
+2020-05-27 12:27:08.848 INFO  --- [main, NOSESSION] o.s.s.c.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor' 
+2020-05-27 12:27:10.007 INFO  --- [main, NOSESSION] o.s.b.w.e.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path '' 
+2020-05-27 12:27:10.047 INFO  --- [main, NOSESSION] c.h.d.DockerLogSystemApplicationKt : Started DockerLogSystemApplicationKt in 8.581 seconds (JVM running for 9.753) 
+2020-05-27 12:27:50.324 INFO  --- [Thread-3, NOSESSION] o.s.s.c.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor' 
+2020-05-27 12:30:07.519 INFO  --- [main, NOSESSION] c.h.d.DockerLogSystemApplicationKt : Starting DockerLogSystemApplicationKt on ed8984c85ada with PID 1 (/application.jar started by root in /) 
+2020-05-27 12:30:07.528 INFO  --- [main, NOSESSION] c.h.d.DockerLogSystemApplicationKt : No active profile set, falling back to default profiles: default 
+2020-05-27 12:30:11.557 INFO  --- [main, NOSESSION] o.s.b.w.e.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http) 
+2020-05-27 12:30:11.636 INFO  --- [main, NOSESSION] o.a.catalina.core.StandardService : Starting service [Tomcat] 
+2020-05-27 12:30:11.641 INFO  --- [main, NOSESSION] o.a.catalina.core.StandardEngine : Starting Servlet Engine: Apache Tomcat/9.0.13 
+2020-05-27 12:30:11.683 INFO  --- [main, NOSESSION] o.a.c.core.AprLifecycleListener : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib] 
+2020-05-27 12:30:12.042 INFO  --- [main, NOSESSION] o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext 
+2020-05-27 12:30:12.049 INFO  --- [main, NOSESSION] o.s.web.context.ContextLoader : Root WebApplicationContext: initialization completed in 4397 ms 
+2020-05-27 12:30:12.961 INFO  --- [main, NOSESSION] o.s.s.c.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor' 
+2020-05-27 12:30:14.012 INFO  --- [main, NOSESSION] o.s.b.w.e.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path '' 
+2020-05-27 12:30:14.051 INFO  --- [main, NOSESSION] c.h.d.DockerLogSystemApplicationKt : Started DockerLogSystemApplicationKt in 8.131 seconds (JVM running for 9.316) 
+2020-05-27 12:31:06.289 INFO  --- [Thread-3, NOSESSION] o.s.s.c.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor' 
+2020-05-27 12:37:47.503 INFO  --- [main, NOSESSION] c.h.d.DockerLogSystemApplicationKt : Starting DockerLogSystemApplicationKt on ed8984c85ada with PID 1 (/application.jar started by root in /) 
+2020-05-27 12:37:47.522 INFO  --- [main, NOSESSION] c.h.d.DockerLogSystemApplicationKt : No active profile set, falling back to default profiles: default 
+2020-05-27 12:37:52.280 INFO  --- [main, NOSESSION] o.s.b.w.e.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http) 
+2020-05-27 12:37:52.496 INFO  --- [main, NOSESSION] o.a.catalina.core.StandardService : Starting service [Tomcat] 
+2020-05-27 12:37:52.500 INFO  --- [main, NOSESSION] o.a.catalina.core.StandardEngine : Starting Servlet Engine: Apache Tomcat/9.0.13 
+2020-05-27 12:37:52.560 INFO  --- [main, NOSESSION] o.a.c.core.AprLifecycleListener : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib] 
+2020-05-27 12:37:52.928 INFO  --- [main, NOSESSION] o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext 
+2020-05-27 12:37:52.936 INFO  --- [main, NOSESSION] o.s.web.context.ContextLoader : Root WebApplicationContext: initialization completed in 5096 ms 
+2020-05-27 12:37:54.335 INFO  --- [main, NOSESSION] o.s.s.c.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor' 
+2020-05-27 12:37:55.474 INFO  --- [main, NOSESSION] o.s.b.w.e.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path '' 
+2020-05-27 12:37:55.505 INFO  --- [main, NOSESSION] c.h.d.DockerLogSystemApplicationKt : Started DockerLogSystemApplicationKt in 9.708 seconds (JVM running for 11.057) 
+2020-05-27 12:42:56.856 INFO  --- [Thread-3, NOSESSION] o.s.s.c.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor' 

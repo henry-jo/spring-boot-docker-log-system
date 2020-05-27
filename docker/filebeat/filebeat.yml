@@ -3,6 +3,13 @@ filebeat.inputs:
   enabled: true
   paths:
     - /var/log/nginx/*.log
+  tags: ["nginx"]
+
+- type: log
+  enabled: true
+  paths:
+    - /logs/*.log
+  tags: ["service"]
 
 output.logstash:
   enabled: true

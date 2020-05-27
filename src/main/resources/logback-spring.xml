@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration>
+
+<configuration>
+  <include resource="org/springframework/boot/logging/logback/defaults.xml"/>
+
+  <property name="LOG_FILE_PATH" value="./logs"/>
+
+  <appender name="TEXT_CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+    <encoder>
+      <charset>UTF-8</charset>
+      <Pattern>${CONSOLE_LOG_PATTERN}</Pattern>
+    </encoder>
+  </appender>
+
+  <appender name="dailyRollingFileAppender" class="ch.qos.logback.core.rolling.RollingFileAppender">
+    <file>${LOG_FILE_PATH}/console.log</file>
+    <prudent>true</prudent>
+    <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+      <fileNamePattern>${LOG_FILE_PATH}/console.%d{yyyy-MM-dd}.log</fileNamePattern>
+      <maxHistory>60</maxHistory>
+    </rollingPolicy>
+    <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+      <level>INFO</level>
+    </filter>
+
+    <encoder>
+      <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level --- [%thread, %X{sessionId:-NOSESSION}] %logger{35} : %msg %n</pattern>
+    </encoder>
+  </appender>
+
+  <root level="INFO">
+    <appender-ref ref="TEXT_CONSOLE"/>
+    <appender-ref ref="dailyRollingFileAppender"/>
+  </root>
+
+</configuration>
